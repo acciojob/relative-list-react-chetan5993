@@ -10,8 +10,9 @@ function MyRelativesList() {
   return (
     <ol key="relativeList">
       {relatives.map((relative) => (
-        <li key={`relativeListItem${relative.id}`}>{relative.name}</li>
+        <li key={`relativeListItem${relatives.id}`}>{relative.name}</li>
       ))}
+      <div></div>
     </ol>
   );
 }
